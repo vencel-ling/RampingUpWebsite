@@ -58,5 +58,5 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'RampingUpWebsite'
-          package: './release.zip'
+          package: '.'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F64BCE477C064145BD9796042E5EEB9D }}
