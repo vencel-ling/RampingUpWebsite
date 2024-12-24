@@ -7,9 +7,6 @@ import fetch from 'node-fetch';
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'server',
-	nitro: {
-    preset: "azure"
-  },
   server: {
     port: process.env.PORT || 3000, // 默认 3000
   },
