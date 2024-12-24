@@ -4,6 +4,10 @@ import fs from 'fs';
 import path from 'path';
 import fetch from 'node-fetch';
 
+export default defineNuxtConfig({
+  nitro: {
+    preset: "azure"
+  },
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'server',
